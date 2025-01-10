@@ -1,0 +1,61 @@
+Allow for easy creation and storage of character sheets, and allow them to be used as a digital character sheet during play
+
+## Builder
+- Select Species
+- Select Character Classes and the level for those classes
+- Select Character Background
+	- Optional feat at level 1
+- Place to input # for Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma
+	- Calculate Modifier from Base
+		- (Base - 10) / 2
+- Find Proficiencies based on Species, Class, Background, and Feat
+- Select Equipment based on Class and Background
+- Automatically calculate bonuses based on Features and Base Stats
+	- Hit Points (HP)
+		- options between average hp or manual input for Hit Die result
+		- Class Hit Die + Con per level
+		- First level always max die result
+	- Armor Class (AC)
+		- Unarmored = 10 + Dex
+		- Lightly Armored = Base + Dex
+		- Medium Armored = Base + Dex (Max 2)
+		- Heavily Armored = Base
+		- Shield = +2
+	- Initiative Bonus = Dex Modifier
+	- Speed
+		- Species Base Speed
+		- Account for different types of movement
+			- Walking Speed
+			- Flying Speed
+			- Climbing Speed
+			- Swimming Speed
+	- Proficiency Bonus
+		- Based on Character Level
+			- Some features give Expertise, 2x Proficiency
+			- Only added if Proficient
+	- Skill Bonuses
+		- Base Stat modifier + Proficiency Bonus + Expertise
+	- Save Bonuses
+		- Base Stat modifier + Proficiency Bonus
+		- Passive Stats (Perception, Investigation, Insight)
+			- 10 + total Bonus
+	- Weapon Bonuses
+		- To Hit = Base Stat + Proficiency
+		- Damage = Weapon Damage Die + Base Stat
+	- Spell Bonuses
+		- Save Difficulty Class = 8 + Base Stat + Proficiency
+		- To Hit = Base Stat + Proficiency
+	- Amount of Spell Slots based on Class and Level
+## During Play
+- Track Current HP, Spell Slots, Equipment, and Feature Uses
+	- Change what is equipped and active features, updating stats and bonuses accordingly
+	- Track feature duration and amount of time left?
+- Have a section to track stat blocks
+	- Druid Wild Shapes
+	- Polymorphs
+	- Familiars
+	- Pets
+	- Vehicles
+- Different tabs for Actions, Spells, Equipment?
+- Notes Section?
+- Track Experience based on Level
