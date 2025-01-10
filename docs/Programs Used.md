@@ -1,8 +1,10 @@
 - VSCode
     - [download](https://code.visualstudio.com/download)
+    - follow all default install options
 - Xampp
     - work in progress
 - Gitbash for windows
     - [download](https://git-scm.com/downloads/win)
+    - follow all default install options
 - Github
     - [characterbuilder](https://github.com/jackfaarmer/characterbuilder)
