@@ -1,4 +1,8 @@
 - VSCode
+    - [download](https://code.visualstudio.com/download)
 - Xampp
+    - work in progress
+- Gitbash for windows
+    - [download](https://git-scm.com/downloads/win)
 - Github
-- 
+    - [characterbuilder](https://github.com/jackfaarmer/characterbuilder)
